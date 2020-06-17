@@ -1,0 +1,26 @@
+.bg-login {
+    background-image: url("images/bg-photo-login.jpeg") !important;
+    background-size: cover;
+}
+
+.app-logo-inverse {
+    height: 90px;
+    width: 300px;
+    background: url(images/logo-inverse.png);
+    background-size: cover;
+}
+
+.logo-src-custom {
+    height: 60px; 
+    width: 190px;
+    background: url(images/logo-inverse.png);
+    background-size: cover;
+}
+
+.hamburger-inner, .hamburger-inner::before, .hamburger-inner::after {
+    background-color: #ffffff;
+}
+
+.hamburger.is-active .hamburger-inner, .hamburger.is-active .hamburger-inner::before, .hamburger.is-active .hamburger-inner::after {
+    background-color: #ffffff;
+}
